@@ -12,3 +12,46 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+}
+
+.square {
+  display: flex;
+  width: 100%;
+  height: 500px;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  border: 1px solid black;
+}
+
+.inputForm {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 5px;
+}
+
+.inputForm input[type="text"] {
+  flex-grow: 1;
+  max-width: 100%;
+  min-height: 48px;
+  font-size: 1rem;
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+  outline: none;
+}
+
+.inputForm label {
+  position: absolute;
+  left: -99999px;
+}
