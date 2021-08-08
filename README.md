@@ -1,1 +1,1 @@
-This project was presented as a code challenge for the React tutorial that I am working through. This app allows the user to enter a color in the input box, which causes the square above to change to that color and print the color name and hex code within the square.
+This project was presented as a code challenge for the React tutorial that I am working through. This app allows the user to enter a color in the input box, which causes the square above to change to that color and print the color name and hex code within the square. This challenge is complete.
